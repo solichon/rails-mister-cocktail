@@ -10,5 +10,4 @@ Rails.application.routes.draw do
     resources :doses, only: :create
   end
   resources :doses, only: :destroy
-
 end
