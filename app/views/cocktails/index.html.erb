@@ -1,4 +1,6 @@
 <h1>All Cocktails</h1>
+<p><%= cl_image_tag("mojito.jpg",
+      width: 400, height: 300, crop: :fill) %></p>
 
 <ul>
   <% @cocktails.each do |cocktail| %>
